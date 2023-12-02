@@ -21,19 +21,21 @@ that can be used to identify the creditworthiness of borrowers.
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
-* Machine Learning Model 1:
-  * **Accuracy Score:** *95%*
-  * **Precision Score:** *100% percision for healthy loans* & *85% percision for high-risk loans*
-  * **Recall Score:** *99% recall  for healthy loans* & *91% recall for high-risk loans*
+### Machine Learning Model 1:
+  * **Accuracy Score:** 95%
+  * **Precision Score:** 100% precision for healthy loans & 85% precision for high-risk loans
+  * **Recall Score:** 99% recall  for healthy loans & 91% recall for high-risk loans
   #### This particulary logistic regression model performed well.
 
-
-
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+### Machine Learning Model 2:
+  * **Accuracy Score:** 99%
+  * **Precision Score:** 100% precision for healthy loans & 84% precision for high-risk loans
+  * **Recall Score:** 99% recall for both healthy loans & high-risk loans
+  #### This particulary logistic regression model also performed very well.
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+The results of the machine learning models revealed high accuracy scores in both models that are demonstrated. This shows that credit classfication within these models does fairly well in most situations. The high-risk loans precisions scores are in the 80% range, which is still good but may need more focus on it.
+The machine learning models would be great business addition as the accuracy scores are often very high. Model 2 reflects an accuracy score of 99%. Precision scores for the high-risk loans as they are more important to keep track of, however, the model still predicts a fairly high level of precision of 84%.
+
+
