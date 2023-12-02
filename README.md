@@ -2,11 +2,9 @@
 # Module 20 Report Template
 
 ## Overview of the Analysis
-
-  This analysis focuses on loan risk. The dataset provided reflects historical lending activity from peer-to-peer lending services company to build a model
-that can be used to identify the creditworthiness of borrowers. 
-  The data provided various information on the common borrower, such as previous loan sizes, borrowers' income, number of accounts, total_det, and loan_status.
-  The loan_status was focused on for this analysis in order to predict a healthy loan vs an unhealthily loan for the borrower.
+* This analysis focuses on loan risk. The dataset provided reflects historical lending activity from peer-to-peer lending services. This data will be used build a model that can be used to identify the creditworthiness of borrowers.
+* The data provided various information on the common borrower, such as previous loan sizes, borrowers' income, number of accounts, total_det, and loan_status.
+* The *loan_status* was focused on for this analysis in order to predict a healthy loan vs an unhealthily loan for the borrower.
   * The stages of the machine learning process are as followed:
         - Split the Data into training and testing sets
         - Create the labels set (y) from the “loan_status” column, and then create the features (X) DataFrame from the remaining columns.
